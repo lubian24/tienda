@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-image: linear-gradient(to bottom right,#5187c4, #00b947); 
+    background-repeat:no-repeat;
+    background-attachment:fixed;  
+}
+
+header{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor{
+        margin:0 auto;
+        width: 800px;
+}
